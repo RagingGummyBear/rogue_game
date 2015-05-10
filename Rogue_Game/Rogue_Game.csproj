@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A9A67DAA-BC65-4FE4-97FE-ACFCFB72CE4A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Rogue_Game</RootNamespace>
+    <AssemblyName>Rogue_Game</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Block.cs" />
+    <Compile Include="BlockGrid.cs" />
+    <Compile Include="BushBerry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BushBerry.Designer.cs">
+      <DependentUpon>BushBerry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Characters\AngryGoat.cs" />
+    <Compile Include="Characters\BerserkerOrc.cs" />
+    <Compile Include="Characters\BoneWarrior.cs" />
+    <Compile Include="Characters\Character.cs" />
+    <Compile Include="Characters\CrazyWhiteTiger.cs" />
+    <Compile Include="Characters\Dragon.cs" />
+    <Compile Include="Characters\Goblin.cs" />
+    <Compile Include="Characters\Havel.cs" />
+    <Compile Include="Characters\heavyWarrior.cs" />
+    <Compile Include="Characters\MainBoss.cs" />
+    <Compile Include="Characters\Merchant.cs" />
+    <Compile Include="Characters\Ornstein.cs" />
+    <Compile Include="Characters\Smasher.cs" />
+    <Compile Include="Characters\UndeadWarrior.cs" />
+    <Compile Include="Chest.cs" />
+    <Compile Include="d3vector.cs" />
+    <Compile Include="enviromentals\environment .cs" />
+    <Compile Include="enviromentals\FoodEnvironment.cs" />
+    <Compile Include="enviromentals\StoneEnvironment.cs" />
+    <Compile Include="enviromentals\TreeEnvironment.cs" />
+    <Compile Include="Equip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Equip.Designer.cs">
+      <DependentUpon>Equip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Equipment.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameMode\Combat.cs" />
+    <Compile Include="GameMode\Fabrika.cs" />
+    <Compile Include="GameMode\GameMode.cs" />
+    <Compile Include="GameMode\MapaMatrix.cs" />
+    <Compile Include="items\Armors\Boots.cs" />
+    <Compile Include="items\Armors\Gloves.cs" />
+    <Compile Include="items\Armors\Helmet.cs" />
+    <Compile Include="items\Armors\Legs.cs" />
+    <Compile Include="items\Armors\Shoulders.cs" />
+    <Compile Include="items\Armors\Warlock_Mask.cs" />
+    <Compile Include="items\Armors\Zerker.cs" />
+    <Compile Include="items\Berry.cs" />
+    <Compile Include="items\Item.cs" />
+    <Compile Include="items\Armors\AChest.cs" />
+    <Compile Include="items\Weapons\Bow.cs" />
+    <Compile Include="items\Weapons\DragonSword.cs" />
+    <Compile Include="items\Weapons\GreatSword.cs" />
+    <Compile Include="items\Weapons\OrnsteinSpear.cs" />
+    <Compile Include="items\Weapons\Shield.cs" />
+    <Compile Include="items\Weapons\Sword.cs" />
+    <Compile Include="GameMode\MainCharacter.cs" />
+    <Compile Include="LevelUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LevelUp.Designer.cs">
+      <DependentUpon>LevelUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoadDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoadDialog.Designer.cs">
+      <DependentUpon>LoadDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu.Designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Osobini.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="randed.cs" />
+    <Compile Include="SaveCharacter.cs" />
+    <Compile Include="SaveDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaveDialog.Designer.cs">
+      <DependentUpon>SaveDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SaveGames.cs" />
+    <Compile Include="Shop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Shop.Designer.cs">
+      <DependentUpon>Shop.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BushBerry.resx">
+      <DependentUpon>BushBerry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Equip.resx">
+      <DependentUpon>Equip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LevelUp.resx">
+      <DependentUpon>LevelUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoadDialog.resx">
+      <DependentUpon>LoadDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SaveDialog.resx">
+      <DependentUpon>SaveDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shop.resx">
+      <DependentUpon>Shop.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="items\Accessories\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Resources\IMG_97801.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

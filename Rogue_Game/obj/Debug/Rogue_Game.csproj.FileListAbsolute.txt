@@ -1,0 +1,16 @@
+F:\workplace\VisualStudio\Rogue_Game\Rogue_Game\bin\Debug\Rogue_Game.exe.config
+F:\workplace\VisualStudio\Rogue_Game\Rogue_Game\bin\Debug\Rogue_Game.exe
+F:\workplace\VisualStudio\Rogue_Game\Rogue_Game\bin\Debug\Rogue_Game.pdb
+F:\workplace\VisualStudio\Rogue_Game\Rogue_Game\obj\Debug\Rogue_Game.csprojResolveAssemblyReference.cache
+F:\workplace\VisualStudio\Rogue_Game\Rogue_Game\obj\Debug\Rogue_Game.Form1.resources
+F:\workplace\VisualStudio\Rogue_Game\Rogue_Game\obj\Debug\Rogue_Game.Properties.Resources.resources
+F:\workplace\VisualStudio\Rogue_Game\Rogue_Game\obj\Debug\Rogue_Game.csproj.GenerateResource.Cache
+F:\workplace\VisualStudio\Rogue_Game\Rogue_Game\obj\Debug\Rogue_Game.exe
+F:\workplace\VisualStudio\Rogue_Game\Rogue_Game\obj\Debug\Rogue_Game.pdb
+F:\workplace\VisualStudio\Rogue_Game\Rogue_Game\obj\Debug\Rogue_Game.LevelUp.resources
+F:\workplace\VisualStudio\Rogue_Game\Rogue_Game\obj\Debug\Rogue_Game.Shop.resources
+F:\workplace\VisualStudio\Rogue_Game\Rogue_Game\obj\Debug\Rogue_Game.BushBerry.resources
+F:\workplace\VisualStudio\Rogue_Game\Rogue_Game\obj\Debug\Rogue_Game.Equip.resources
+F:\workplace\VisualStudio\Rogue_Game\Rogue_Game\obj\Debug\Rogue_Game.MainMenu.resources
+F:\workplace\VisualStudio\Rogue_Game\Rogue_Game\obj\Debug\Rogue_Game.SaveDialog.resources
+F:\workplace\VisualStudio\Rogue_Game\Rogue_Game\obj\Debug\Rogue_Game.LoadDialog.resources
