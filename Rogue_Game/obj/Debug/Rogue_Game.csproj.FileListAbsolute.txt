@@ -14,3 +14,19 @@ F:\workplace\VisualStudio\Rogue_Game\Rogue_Game\obj\Debug\Rogue_Game.Equip.resou
 F:\workplace\VisualStudio\Rogue_Game\Rogue_Game\obj\Debug\Rogue_Game.MainMenu.resources
 F:\workplace\VisualStudio\Rogue_Game\Rogue_Game\obj\Debug\Rogue_Game.SaveDialog.resources
 F:\workplace\VisualStudio\Rogue_Game\Rogue_Game\obj\Debug\Rogue_Game.LoadDialog.resources
+F:\GitHub repositories\rogue_game\Rogue_Game\bin\Debug\Rogue_Game.exe.config
+F:\GitHub repositories\rogue_game\Rogue_Game\obj\Debug\Rogue_Game.exe
+F:\GitHub repositories\rogue_game\Rogue_Game\obj\Debug\Rogue_Game.pdb
+F:\GitHub repositories\rogue_game\Rogue_Game\bin\Debug\Rogue_Game.exe
+F:\GitHub repositories\rogue_game\Rogue_Game\bin\Debug\Rogue_Game.pdb
+F:\GitHub repositories\rogue_game\Rogue_Game\obj\Debug\Rogue_Game.csprojResolveAssemblyReference.cache
+F:\GitHub repositories\rogue_game\Rogue_Game\obj\Debug\Rogue_Game.BushBerry.resources
+F:\GitHub repositories\rogue_game\Rogue_Game\obj\Debug\Rogue_Game.Equip.resources
+F:\GitHub repositories\rogue_game\Rogue_Game\obj\Debug\Rogue_Game.Form1.resources
+F:\GitHub repositories\rogue_game\Rogue_Game\obj\Debug\Rogue_Game.LevelUp.resources
+F:\GitHub repositories\rogue_game\Rogue_Game\obj\Debug\Rogue_Game.LoadDialog.resources
+F:\GitHub repositories\rogue_game\Rogue_Game\obj\Debug\Rogue_Game.MainMenu.resources
+F:\GitHub repositories\rogue_game\Rogue_Game\obj\Debug\Rogue_Game.Properties.Resources.resources
+F:\GitHub repositories\rogue_game\Rogue_Game\obj\Debug\Rogue_Game.SaveDialog.resources
+F:\GitHub repositories\rogue_game\Rogue_Game\obj\Debug\Rogue_Game.Shop.resources
+F:\GitHub repositories\rogue_game\Rogue_Game\obj\Debug\Rogue_Game.csproj.GenerateResource.Cache

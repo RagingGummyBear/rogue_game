@@ -128,14 +128,18 @@ namespace Rogue_Game
                 x /= 48;
                 y /= 45;
                 if (glavnoInv[y, x] != null) glavnoInv[y, x].selected = true;
-                prev_Item = new Point(y, x);
+             
                 if (glavnoInv[y, x]!=null) this.textBox6.Text = glavnoInv[y, x].value.ToString();
-
+                if(prev_Item.X!=99)
+                {
+                    if (glavnoInv[prev_Item.X, prev_Item.Y]!=null) glavnoInv[prev_Item.X, prev_Item.Y].selected = false;
+                }
                 if(this.prev_item!=99)
                 {
                     if (merc[prev_item]!=null) merc[prev_item].selected = false;
                    
-                } prev_Item = e.Location;
+                }
+                prev_Item = new Point(y, x);
                 panel2.Invalidate();
                 panel1.Invalidate();
 
