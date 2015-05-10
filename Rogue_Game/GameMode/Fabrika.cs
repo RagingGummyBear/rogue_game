@@ -124,7 +124,7 @@ namespace Rogue_Game.GameMode
             
        Character npc;
       // Random rand = randed.Instance.rand;
-       if (randed.Instance.rand.Next(1, 13) == 1)
+       if (randed.Instance.rand.Next(1, 15) == 1)
        {
            npc = create_Goblin();
        }
@@ -1756,7 +1756,7 @@ namespace Rogue_Game.GameMode
 
        if(glavno.level<10)
        {
-           int pom = randed.Instance.rand.Next(1, 30);
+           int pom = randed.Instance.rand.Next(1, 25);
            if (pom < 6) return new Smasher();
            else
                if (pom <= 9) return new heavyWarrior();
